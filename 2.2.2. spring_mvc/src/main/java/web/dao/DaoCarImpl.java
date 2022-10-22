@@ -11,11 +11,12 @@ public class DaoCarImpl implements DaoCar {
 
     {
         cars = new ArrayList<>();
-        cars.add(new Car(1,"BMW","black"));
-        cars.add(new Car(2,"AUDI","yellow"));
-        cars.add(new Car(3,"MERS","black"));
-        cars.add(new Car(4,"TESLA","red"));
-        cars.add(new Car(5,"TOYOTA","grey"));
+        cars.add(new Car(1,"BMW","e34","black",350000));
+        cars.add(new Car(2,"AUDI","a6","yellow",650000));
+        cars.add(new Car(3,"MERS","e500","black",550000));
+        cars.add(new Car(4,"TESLA","mini","white",850000));
+        cars.add(new Car(5,"TOYOTA","camry","black",950000));
+
     }
 
     @Override
